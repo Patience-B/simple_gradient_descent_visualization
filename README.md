@@ -48,7 +48,7 @@ def gradient_descent(learning_rate=0.1, num_iterations=50):
         path.append(t)
 
     return np.array(path)
-```python
+# --- End of Python Code ---
 
 ---
 
