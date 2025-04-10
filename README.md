@@ -42,7 +42,8 @@ Gradient Descent is an optimization algorithm used to find the minimum of a func
 ## 🏔️ Analogy
 
 Imagine you're on a mountain trying to reach the lowest valley. You walk downhill in the steepest direction — this is essentially what gradient descent does.
-🧠 In Machine Learning
+
+## 🧠 In Machine Learning
 
 In machine learning, gradient descent is used to minimize a loss function by tweaking model parameters (like weights in neural networks), ultimately improving the model’s performance.
 
