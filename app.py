@@ -30,8 +30,9 @@ st.markdown("""
     **Gradient Descent** is an optimization algorithm used to minimize a function/ find the lowest point on a graph, 
     similar to hiking down a mountain to find the lowest valley. It works by iteratively adjusting parameters 
     (like the slope of a line/ gradient) to minimize a cost or loss function, which represents the error between 
-    the model's predictions and the actual data. In this app, we will visualize how gradient descent works for 
-    the function \( u(t) = t^2 + 7t - 2 \).
+    the model's predictions and the actual data. 
+    
+    In this app, we will visualize how gradient descent works for the function \( u(t) = t^2 + 7t - 2 \).
     
     **Function**: \( u(t) = t^2 + 7t - 2 \)
     
