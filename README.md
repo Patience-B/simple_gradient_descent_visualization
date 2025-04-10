@@ -48,8 +48,7 @@ def gradient_descent(learning_rate=0.1, num_iterations=50):
         path.append(t)
 
     return np.array(path)
-# --- End of Python Code ---
-
+```
 ---
 
 #🧪 Example: Try It with These Parameters
@@ -70,7 +69,8 @@ Updated t: 5.14
 Gradient: 17.28
 Updated t: 3.412
 
-As shown, the value of t is decreasing toward the minimum, but hasn't yet reached it — because the number of iterations is too small. Try these same values in the app to see the descent path visually!
+As shown, the value of t is decreasing toward the minimum, but hasn't yet reached it — because the number of iterations is too small.
+Try these same values in the app to see the descent path visually!
 
 ---
 
