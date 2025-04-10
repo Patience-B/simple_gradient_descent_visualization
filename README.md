@@ -60,6 +60,7 @@ If you run the algorithm with:
     num_iterations = 3
 
 The textual output will be:
+| Variable     | Value |
 |--------------|-------|
 | Initial t    | 10    |
 | Gradient     | 27    |
