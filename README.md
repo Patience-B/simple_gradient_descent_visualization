@@ -25,6 +25,29 @@ It then visualizes:
 
 ---
 
+## 🧠 What Is Gradient Descent?
+
+Gradient Descent is an optimization algorithm used to find the minimum of a function. Here's how it works in simple terms:
+
+    Start at a point on the curve.
+
+    Compute the gradient (slope) at that point.
+
+    Take a step opposite to the gradient — moving downhill.
+
+    Repeat until the slope is near zero (i.e., a minimum point).
+
+---
+
+## 🏔️ Analogy
+
+Imagine you're on a mountain trying to reach the lowest valley. You walk downhill in the steepest direction — this is essentially what gradient descent does.
+🧠 In Machine Learning
+
+In machine learning, gradient descent is used to minimize a loss function by tweaking model parameters (like weights in neural networks), ultimately improving the model’s performance.
+
+---
+
 ## 🧮 The Gradient Descent Algorithm Used
 
 ```python
@@ -73,25 +96,3 @@ The textual output will be:
 As shown, the value of t is decreasing toward the minimum, but hasn't yet reached it — because the number of iterations is too small.
 Try these same values in the app to see the descent path visually!
 
----
-
-## 🧠 What Is Gradient Descent?
-
-Gradient Descent is an optimization algorithm used to find the minimum of a function. Here's how it works in simple terms:
-
-    Start at a point on the curve.
-
-    Compute the gradient (slope) at that point.
-
-    Take a step opposite to the gradient — moving downhill.
-
-    Repeat until the slope is near zero (i.e., a minimum point).
-
----
-
-## 🏔️ Analogy
-
-Imagine you're on a mountain trying to reach the lowest valley. You walk downhill in the steepest direction — this is essentially what gradient descent does.
-🧠 In Machine Learning
-
-In machine learning, gradient descent is used to minimize a loss function by tweaking model parameters (like weights in neural networks), ultimately improving the model’s performance.
