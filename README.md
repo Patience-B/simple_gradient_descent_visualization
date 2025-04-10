@@ -51,7 +51,7 @@ def gradient_descent(learning_rate=0.1, num_iterations=50):
 ```
 ---
 
-#🧪 Example: Try It with These Parameters
+## 🧪 Example: Try It with These Parameters
 
 If you run the algorithm with:
 
@@ -59,22 +59,22 @@ If you run the algorithm with:
 
     num_iterations = 3
 
-You will see:
-
-Initial t: 10
-Gradient: 27
-Updated t: 7.3
-Gradient: 21.6
-Updated t: 5.14
-Gradient: 17.28
-Updated t: 3.412
+The textual output will be:
+|--------------|-------|
+| Initial t    | 10    |
+| Gradient     | 27    |
+| Updated t    | 7.3   |
+| Gradient     | 21.6  |
+| Updated t    | 5.14  |
+| Gradient     | 17.28 |
+| Updated t    | 3.412 |
 
 As shown, the value of t is decreasing toward the minimum, but hasn't yet reached it — because the number of iterations is too small.
 Try these same values in the app to see the descent path visually!
 
 ---
 
-#🧠 What Is Gradient Descent?
+## 🧠 What Is Gradient Descent?
 
 Gradient Descent is an optimization algorithm used to find the minimum of a function. Here's how it works in simple terms:
 
@@ -88,7 +88,7 @@ Gradient Descent is an optimization algorithm used to find the minimum of a func
 
 ---
 
-# 🏔️ Analogy
+## 🏔️ Analogy
 
 Imagine you're on a mountain trying to reach the lowest valley. You walk downhill in the steepest direction — this is essentially what gradient descent does.
 🧠 In Machine Learning
